@@ -1,0 +1,10 @@
+sexo=input("Digite, em maiúsculo, M se você for sexo masculino ou F se for do sexo feminino: ")
+h=float(input("Digite a sua altura em metros: "))
+if sexo == 'M':
+    peso_ideal=(72.7*h)-58
+    print("O seu peso ideal é de", peso_ideal, "quilos")
+elif sexo == 'F':
+    peso_ideal=(62.1*h)-44.7
+    print("O seu peso ideal é de", peso_ideal, "quilos")
+else:
+    print("Sexo não reconhecido. Por favor, digite M para masculino ou F para feminino.")
